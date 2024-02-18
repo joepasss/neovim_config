@@ -7,5 +7,5 @@ vim.g.mapleader = " "
 
 vim.api.nvim_set_keymap("t", "<leader><ESC>", "<C-\\><C-n>", { noremap = true })
 
-vim.api.nvim_set_keymap("v", "<C-S-c>", "\"+y", { noremap = true })
-vim.api.nvim_set_keymap("v", "<C-S-v>", "\"+p", { noremap = true })
+vim.api.nvim_set_keymap("v", "<C-S-c>", '"+y', { noremap = true })
+vim.api.nvim_set_keymap("v", "<C-S-v>", '"+p', { noremap = true })
